@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>ComicCraft AI</title>
+
+<link rel="stylesheet"
+href="/static/style.css">
+
+</head>
+
+<body>
+
+<div class="page">
+
+<div class="card">
+
+<h1>🎨 Create Your Comic</h1>
+
+<p>
+Turn your imagination into an AI-powered comic.
+</p>
+
+<form id="comicForm">
+
+<label>Story Prompt</label>
+
+<textarea
+id="story_prompt"
+placeholder="Enter your story idea..."
+required></textarea>
+
+
+<label>Main Character Name</label>
+
+<input
+id="character_name"
+placeholder="Example: Arjun"
+required>
+
+
+<label>Setting</label>
+
+<select id="setting">
+
+<option>School</option>
+<option>Forest</option>
+<option>Space</option>
+<option>City</option>
+<option>Village</option>
+
+</select>
+
+
+<label>Story Tone</label>
+
+<select id="tone">
+
+<option>Light-hearted</option>
+<option>Dramatic</option>
+<option>Poetic</option>
+<option>Funny</option>
+
+</select>
+
+
+<label>Art Style</label>
+
+<select id="art_style">
+
+<option>Comic Book</option>
+<option>Anime</option>
+<option>Realistic</option>
+<option>Pixel Art</option>
+<option>Cartoon</option>
+
+</select>
+
+
+<button type="submit">
+✨ Generate Comic
+</button>
+
+</form>
+
+</div>
+
+
+<div id="result"></div>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+
+</html>
